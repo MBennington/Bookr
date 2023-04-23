@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "BOOKR",
+    "slug": "EbookMaker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+  "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.bennington665.EbookMaker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b1a77cc-04cf-4ae9-ae10-0b998ea863bd"
+      }
+    }
+  }
+}
